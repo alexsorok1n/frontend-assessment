@@ -1,0 +1,7 @@
+<div class="container contact-wrapper">
+  <h1>{{pageTitle}}</h1>
+  <div class="contact-block">
+    <h3>Contacts <a href="javascript:void(0)" (click)="addContact()" class="badge badge-success btn-add">+</a></h3>
+    <app-contact-list [contactList]="contacts" (removeContact)="removeContact($event)"></app-contact-list>
+  </div>
+</div>

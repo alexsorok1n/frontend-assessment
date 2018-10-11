@@ -1,0 +1,27 @@
+.contact-wrapper {margin:0 0 60px; color: #fff}
+.contact-wrapper h1 {
+  text-align: center;
+  margin: 0 0 40px;
+}
+.contact-block {
+  max-width: 580px;
+  margin: 0 auto 10px;
+  color: #000;
+}
+.contact-block h3 {
+  text-align: center;
+  padding: 8px 10px 13px;
+  margin: 0;
+  color: #fff;
+  background: rgba(249, 45, 23, 0.48);
+}
+.btn-add {
+  font-size: 49%;
+  margin: 3px 0 0;
+  vertical-align: top;
+  background: darkorange;
+}
+.btn-add:focus,
+.btn-add:hover{
+  background: chocolate;
+}

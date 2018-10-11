@@ -1,0 +1,8 @@
+<ul class="list-group contact-list custom-scroll">
+  <li class="list-group-item" *ngFor="let contact of contactList; let id = index">
+    <h5 class="mb-1">{{contact.name}}</h5>
+    <p class="mb-1">Phone: {{contact.phone}}</p>
+    <p class="mb-2">Email: <a [href]="'mailto:' + contact.email">{{contact.email}}</a></p>
+    <button type="button" (click)="onRemoveContact(id)" class="btn btn-sm btn-danger">Remove</button>
+  </li>
+</ul>
